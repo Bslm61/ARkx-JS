@@ -182,9 +182,54 @@
 //   console.log(Students[j])
 // }}
 
+
+//  ----------------un matin sans café--------------------
+// var numbers =[
+//     [4,7,23,89,25],
+//     [46,14,74,34,45],
+//     [33,24,2,56,1],
+//     [33,29,56,1],
+//     [33,4,2,56,1],
+//     [33,414,200,56,1],
+//     [33,24,2,56,1],
+//     [332,241,2,7656,1],
+//     [3333,24,2,5,1]
+// ]
+// var count33 = 0
+// var count2 = 0
+// var result = 0
+// var  max = 0
+// var  min = numbers[0][0]
+//     for(i=0 ; i<numbers.length ; i++){
+//         for(j=0 ; j<numbers[i].length ; j++){
+//             if (numbers[i][j]>max)  { 
+//                 max = numbers[i][j]
+//             }
+//             else if (numbers[i][j]<min)
+//             {
+//                 min = numbers[i][j]
+//             }  
+        
+//             if (numbers[i][j] === 33) {
+//                 count33++
+//             }
+//             else if (numbers[i][j] === 2) {
+//                 count2++    
+//             }
+              
+//             result += numbers[i][j]
+//         }  
+//      }
+     
+// console.log("the max number is : " +max)
+// console.log("the min number is : " +min)
+// console.log("Found 33 at index: " + count33)
+// console.log("Found 2 at index: " + count2)
+// console.log("the result of this matrix is : "+ result)
+
 // --------------------Stringmethodes-------------------
 
-var fullnames = "Oussama Bouslimane";
+// var fullnames = "Oussama Bouslimane";
 // console.log(fullnames.toUpperCase()); // majuscule
 // console.log(fullnames.toLowerCase()); // miniscule
 // console.log(fullnames.indexOf("s")); // indexOf index of  char
@@ -199,7 +244,7 @@ var fullnames = "Oussama Bouslimane";
 //division
 // var firstname = fullnames.slice(0,7);
 // var lastname = fullnames.slice(8,18);
-// console.log("first name : " + firstname ) ;
+// console.lombersg("first name : " + firstname ) ;
 // console.log("last name : " + lastname ) ; 
 
 //concatenate
