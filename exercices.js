@@ -269,35 +269,35 @@
 
 
 // ------------------Calculator------------------
-// var nombre1
-// var nombre2 
-// var operation 
-// var result
-// function Calculator(nombre1,operation,nombre2) {
-//     switch (operation) {
-//         case "+"  :
-//             result = nombre1 + nombre2 
-//             break;
-//         case "-" :
-//             result = nombre1 - nombre2
-//             break;
-//         case "*" : 
-//             result = nombre1 * nombre2
-//             break;
-//         case "/" :
-//             result = nombre1 / nombre2
-//             break;
-//         case "c":  
-//             result = (nombre1>nombre2 ?`${nombre1} superieur à ${nombre2}`:`${nombre1} inferieur à ${nombre2}` )
-//              break;
-//         case "%" :
-//             result = nombre1 % nombre2 
-//             break; 
+var nombre1
+var nombre2 
+var operation 
+var result
+function Calculator(nombre1,operation,nombre2) {
+    switch (operation) {
+        case "+"  :
+            result = nombre1 + nombre2 
+            break;
+        case "-" :
+            result = nombre1 - nombre2
+            break;
+        case "*" : 
+            result = nombre1 * nombre2
+            break;
+        case "/" :
+            result = nombre1 / nombre2
+            break;
+        case "c":  
+            result = (nombre1>nombre2 ?`${nombre1} superieur à ${nombre2}`:`${nombre1} inferieur à ${nombre2}` )
+             break;
+        case "%" :
+            result = nombre1 % nombre2 
+            break; 
 
-//         default:console.log("Please enter a valid number")
-//             break;
+        default:console.log("Please enter a valid number")
+            break;
     
-//     }{
-//         return result
-//     }
-// }console.log(Calculator(2,"%",2))
+    }{
+        return result
+    }
+}console.log(Calculator(2,"%",2))
