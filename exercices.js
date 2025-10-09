@@ -258,4 +258,11 @@
 
 
 
+// ------------------operateur ternaire-------------
+// var nombre1 = 1000000000000 ;
+// var nombre2 = 25 ;
+// console.log((nombre1>nombre2 ? `${nombre1} superieur à ${nombre2}`:`${nombre1} inferieur à ${nombre2}`))
 
+// var password = "password" ;
+// var input = "password" ;
+// console.log((password===input? ` correct password`:`incorrect password`))
